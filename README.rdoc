@@ -5,3 +5,7 @@ config/routes.rb
   constraints HostConstraint::Constraint.new("mn", "mn.molinos.ru", "www.mn.molinos.ru") do
     ... # Works only for mn, mn.molinos.ru, www.mn.molinos.ru hosts
   end
+
+= TODO
+  1. Regexps in hostname.
+  2. :www, :port, etc.
